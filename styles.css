@@ -10,6 +10,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   font-size: 1.2rem;
+  color: #21618C;
 }
 
 header {
@@ -93,12 +94,13 @@ footer {
   margin: 10% 0 2% 0;
   display: flex;
   justify-content: flex-end;
+  font-size: 0.9rem;
 }
 
 footer h4 {
   font-size: 1.1rem;
 }
 
-footer p {
-  font-size: 0.9rem;
+footer section {
+  margin-right: 16%;
 }
