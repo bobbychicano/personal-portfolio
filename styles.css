@@ -93,7 +93,7 @@ a:visited {
 footer {
   margin: 10% 0 2% 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   font-size: 0.9rem;
 }
 
@@ -102,5 +102,24 @@ footer h4 {
 }
 
 footer section {
-  margin-right: 16%;
+  margin-right: 1%;
+}
+
+.squares {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle-1,
+.rectangle-2 {
+  background-color: #21618C;
+}
+
+.rectangle-1 {
+  width: 58.5%;
+}
+
+.rectangle-2 {
+  width: 38%;
 }
