@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  margin: 6% 0;
+  margin: 5% 0;
   display: flex;
   justify-content: space-between;
 }
@@ -39,16 +39,15 @@ li {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #21618C;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #B0BEC5;
 }
 
 a:visited {
-  color: purple;
+  color: #21618C;
 }
 
 .personal-statement {
