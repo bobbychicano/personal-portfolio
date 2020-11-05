@@ -130,6 +130,10 @@ a:visited {
   font-size: 2rem;
 }
 
+.resume-holder {
+  height: 950px;
+}
+
 footer {
   margin: 15% 0 5% 0;
   display: flex;
