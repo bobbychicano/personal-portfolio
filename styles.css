@@ -24,7 +24,8 @@ header h2 {
   font-family: 'Zilla Slab Highlight', cursive;
 }
 
-h3 {
+h3,
+h4 {
   font-family: 'Averia Libre', cursive;
 }
 
@@ -48,11 +49,13 @@ h3 {
 }
 
 a {
+  color: #21618C;
   text-decoration: none;
 }
 
 a:visited {
   color: #21618C;
+  text-decoration: none;
 }
 
 .personal-statement {
@@ -70,8 +73,27 @@ a:visited {
   display: none;
 }
 
+.squares {
+  display: none;
+}
+
 footer {
-  margin: 20% 0 10% 0;
+  margin: 15% 0 5% 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px dotted #21618C;
+  padding: 2%;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.contact-info a {
+  padding-top: 1.5%;
 }
 
 @media screen and (min-width: 960px) {
