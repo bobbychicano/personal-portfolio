@@ -8,6 +8,8 @@ My portfolio is a responsive website optimized for mobile and desktop environmen
 
 This is an open project that will be updated regularly to incorporate new styles and formatting.
 
+You can find my portfolio hosted here: https://bobbychicano.github.io/personal-portfolio/
+
 #### Technologies Used
   - HTML
   - CSS
