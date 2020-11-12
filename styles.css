@@ -157,6 +157,11 @@ Media Query
     width: 100%;
   }
 
+  header h2 {
+    width: 100%;
+    text-align: left;
+  }
+
   .social-links {
     margin: 0 0 10% 0;
     width: 100%;
@@ -191,43 +196,6 @@ Media Query
     color: #21618C;
   }
 
-  header h2 {
-    width: 100%;
-    text-align: left;
-  }
-
-  .personal-statement {
-    font-size: 2.7rem;
-    margin: 10% 0;
-  }
-
-  .resume {
-    margin: 8% 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  .intro h3,
-  .resume h3 {
-    font-size: 1.5rem;
-  }
-
-  .intro {
-    display: block;
-    margin: 20% 0 8% 0;
-  }
-
-  .introduction {
-    margin: 0 0 0 5%;
-    padding: 0;
-    width: 90%;
-  }
-
-
-  .summary {
-    width: 50%;
-    padding: 0 5px 0 0;
-  }
-
   .projects {
     margin: 20% 0;
     display: flex;
@@ -239,6 +207,29 @@ Media Query
     margin-left: 4%;
     display: flex;
     justify-content: space-between;
+  }
+
+  .personal-statement {
+    font-size: 2.7rem;
+    margin: 10% 0;
+  }
+
+  .intro h3,
+  .resume h3 {
+    font-size: 1.5rem;
+  }
+
+  .intro,
+  .resume {
+    display: block;
+    margin: 20% 0 8% 0;
+  }
+
+  .introduction,
+  .summary {
+    margin: 0 0 0 5%;
+    padding: 0;
+    width: 90%;
   }
 
   .left-side,
@@ -284,7 +275,9 @@ Media Query
   }
 
   .resume-holder {
+    display: block;
     height: 960px;
+    width: 100%;
   }
 
   footer {
