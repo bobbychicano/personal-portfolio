@@ -196,19 +196,6 @@ Media Query
     color: #21618C;
   }
 
-  .projects {
-    margin: 20% 0;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .abstract-art {
-    width: 34%;
-    margin-left: 4%;
-    display: flex;
-    justify-content: space-between;
-  }
-
   .personal-statement {
     font-size: 2.7rem;
     margin: 10% 0;
@@ -232,35 +219,9 @@ Media Query
     width: 90%;
   }
 
-  .left-side,
-  .right-side {
-    height: 100%;
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .blue-1,
-  .blue-2,
-  .blue-3,
-  .blue-4 {
-    background-color: #21618C;
-    width: 100%;
-  }
-
-  .blue-1,
-  .blue-4 {
-    height: 66%;
-  }
-
-  .blue-2,
-  .blue-3 {
-    height: 32%;
-  }
-
   .project-list {
-    width: 50%;
+    width: 100%;
+    margin: 20% 0 10% 0;
     display: flex;
     flex-direction: column;
     padding-top: 1.5%;
@@ -268,10 +229,13 @@ Media Query
 
   .project-list section {
     padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
   }
 
-  .projects section h3 {
+  .project-list h3 {
     font-size: 2rem;
+    margin-bottom: 10%;
   }
 
   .resume-holder {
@@ -314,3 +278,45 @@ Media Query
     width: 38%;
   }
 }
+
+/*
+.projects {
+  margin: 20% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.abstract-art {
+  width: 34%;
+  margin-left: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blue-1,
+.blue-2,
+.blue-3,
+.blue-4 {
+  background-color: #21618C;
+  width: 100%;
+}
+
+.blue-1,
+.blue-4 {
+  height: 66%;
+}
+
+.blue-2,
+.blue-3 {
+  height: 32%;
+}
+*/
