@@ -180,6 +180,11 @@ Media Query
     width: 100%;
     text-align: left;
     font-family: 'Tajawal', sans-serif;
+    font-size: 2.5rem;
+  }
+
+  span {
+    font-style: oblique;
   }
 
   li {
@@ -207,9 +212,8 @@ Media Query
     margin: 10% 0;
   }
 
-  .intro h3,
-  .resume h3 {
-    font-size: 1.5rem;
+  .resume a {
+    font-family: 'Averia Libre', cursive;
   }
 
   .intro,
