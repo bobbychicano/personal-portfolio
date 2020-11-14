@@ -5,6 +5,37 @@
   font-family: 'Tajawal', sans-serif;
 }
 
+.blue-bar {
+  width: 100%;
+  height: 40px;
+
+  background-color: #21618C;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blue-bar ul {
+  width: 50%;
+  padding: 1.5% 0 0 0;
+  margin: 0 3% 0 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.2rem;
+  list-style: none;
+  color: white;
+}
+
+.blue-bar a {
+  color: white;
+}
+
+.blue-bar a:visited {
+  color: white;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -14,14 +45,13 @@
   font-size: 1.5rem;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  flex-direction: column-reverse;
+header h2 {
+  text-align: left;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 2rem;
 }
 
-h1,
-header h2 {
+h1 {
   font-family: 'Zilla Slab Highlight', cursive;
 }
 
@@ -36,25 +66,6 @@ p {
 
 .project-list a {
   font-family: 'Zilla Slab Highlight', cursive;
-}
-
-.social-links {
-  width: 100%;
-  margin: 8% 0 20% 0;
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 4%;
-  padding-right: 4%;
-  border: 1px dotted #21618C;
-}
-
-.social-links ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-  width: 50%;
-  padding-bottom: 2%;
 }
 
 a {
