@@ -278,12 +278,9 @@ Media Query
     width: 55%;
   }
 
-  .cat-screenshot {
-    border: 1px solid black;
-  }
-
   .project-list img {
     width: 100%;
+    border: 1px solid black;
   }
 
   .project {
