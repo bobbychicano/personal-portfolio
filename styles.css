@@ -68,6 +68,7 @@ header {
   display: flex;
   align-items: center;
   line-height: normal;
+  margin-bottom: 2rem;
 }
 
 .headshot {
@@ -93,7 +94,7 @@ span {
 
 .personal-statement {
   width: 80%;
-  margin: 0;
+  margin-bottom: 3rem;
   font-size: 2.7rem;
   text-align: right;
   display: flex;
@@ -109,12 +110,11 @@ h1 {
 .resume {
   display: block;
   width: 80%;
-  margin-bottom: 2.5%;
+  margin-bottom: 3rem;
 }
 
 .project-list {
   width: 100%;
-  margin: 2.5% 0 0 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -126,7 +126,7 @@ h4 {
 }
 
 .project-list h3 {
-  padding-bottom: 5%;
+  padding-bottom: 3rem;
   display: block;
   font-size: 2rem;
   width: 80%;
@@ -134,13 +134,11 @@ h4 {
 }
 
 .project-list section {
-  padding: 0 0 30px 0;
   margin-bottom: 4rem;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
   width: 100%;
 }
 
@@ -150,6 +148,8 @@ h4 {
 
 figure {
   width: 55%;
+  display: flex;
+  align-items: center;
 }
 
 .project-list img {
